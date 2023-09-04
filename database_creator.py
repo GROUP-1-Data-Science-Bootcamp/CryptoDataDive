@@ -1,6 +1,7 @@
 import sqlalchemy
 from sqlalchemy.ext.declarative import declarative_base
 
+
 database_url = "mysql+mysqlconnector://root:root@127.0.0.1:3306?charset=utf8mb4"
 base_engine = sqlalchemy.create_engine(database_url)
 base_engine.execute("CREATE SCHEMA IF NOT EXISTS quera_project_phase_1")
