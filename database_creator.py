@@ -63,7 +63,6 @@ class Daily_market(Base):
     close = sqlalchemy.Column(sqlalchemy.FLOAT)
     market_cap = sqlalchemy.Column(sqlalchemy.FLOAT)
     volume = sqlalchemy.Column(sqlalchemy.FLOAT)
-    price = sqlalchemy.Column(sqlalchemy.FLOAT)
     created_at = sqlalchemy.Column(sqlalchemy.DateTime,
                                    server_default=sqlalchemy.sql.func.now())
     updated_at = sqlalchemy.Column(sqlalchemy.DateTime,
