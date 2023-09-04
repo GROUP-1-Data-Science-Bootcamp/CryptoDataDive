@@ -54,7 +54,10 @@ class Daily_market(Base):
     __tablename__ = 'daily_market'
     id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True, autoincrement=True)
     c_id = sqlalchemy.Column(sqlalchemy.Integer, sqlalchemy.ForeignKey(Coin.id))
+    date = sqlalchemy.Column(sqlalchemy.Date)
+    time_high = sqlalchemy.Column(sqlalchemy.VARCHAR(255))
     high = sqlalchemy.Column(sqlalchemy.FLOAT)
+    time_low = sqlalchemy.Column(sqlalchemy.VARCHAR(255))
     low = sqlalchemy.Column(sqlalchemy.FLOAT)
     open = sqlalchemy.Column(sqlalchemy.FLOAT)
     close = sqlalchemy.Column(sqlalchemy.FLOAT)
