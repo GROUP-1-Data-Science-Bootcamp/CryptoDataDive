@@ -1,19 +1,23 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-import pandas as pd
+import os
 import time
 
-df = pd.read_csv("D:/DataScience BootCamp/Codes/project-phase1/quera-project-phase1/top200.csv")
+import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+top200_path = os.path.join(".", "top200.csv")
+df = pd.read_csv(top200_path)
 links_to_scrap = df["mainlink"].to_list()
 results_df = pd.DataFrame(columns=["symbol", "github", "tags"])
 
+
 def get_info(driver, link):
     driver.get(link)
-    
+
     symbol = driver.find_element(By.CLASS_NAME, "cjeUNx").text
-    
-    about_button = driver.find_element(By.XPATH, "//span[@class='sc-16891c57-0 dlPAsd base-text' and contains(text(), 'About')]")
+
+    about_button = driver.find_element(By.XPATH,
+                                       "//span[@class='sc-16891c57-0 dlPAsd base-text' and contains(text(), 'About')]")
     about_button.click()
     time.sleep(0.5)
 
@@ -29,7 +33,8 @@ def get_info(driver, link):
 
     return symbol, href, tags_name
 
-driver = webdriver.Chrome()
+
+driver = webdriver.Firefox()
 
 while links_to_scrap:
     link = links_to_scrap[0]
@@ -39,7 +44,7 @@ while links_to_scrap:
 
         row_symbol = symbol if symbol else "unknown"
         new_row = pd.DataFrame({
-            "symbol": [row_symbol], 
+            "symbol": [row_symbol],
             "github": [github],
             "tags": [", ".join(tags)]
         })
