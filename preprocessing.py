@@ -13,8 +13,8 @@ for name in names:
         sep=";",
     )
 
-    df["timehigh"] = pd.to_datetime(df["timeHigh"]).dt.time
-    df["timelow"] = pd.to_datetime(df["timeLow"]).dt.time
+    df["time_high"] = pd.to_datetime(df["timeHigh"]).dt.time
+    df["time_low"] = pd.to_datetime(df["timeLow"]).dt.time
     df["date"] = pd.to_datetime(
         df["timestamp"]).dt.date.astype("datetime64[s]")
 
@@ -25,9 +25,9 @@ for name in names:
     df = df[
         [
             "date",
-            "timelow",
+            "time_low",
             "low",
-            "timehigh",
+            "time_high",
             "high",
             "open",
             "close",
