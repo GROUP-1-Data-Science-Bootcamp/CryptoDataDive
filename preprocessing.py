@@ -17,6 +17,7 @@ for name in names:
     df["time_low"] = pd.to_datetime(df["timeLow"]).dt.time
     df["date"] = pd.to_datetime(
         df["timestamp"]).dt.date.astype("datetime64[s]")
+    df["market_cap"] = df['marketCap']
 
     df.drop(
         columns=["timeOpen", "timeClose", "timeHigh", "timeLow", "timestamp"],
@@ -32,7 +33,7 @@ for name in names:
             "open",
             "close",
             "volume",
-            "marketCap",
+            "market_cap",
         ]
     ]
     output_file_path = os.path.join(".", "cleaned_csvs", f"{name}.csv")
