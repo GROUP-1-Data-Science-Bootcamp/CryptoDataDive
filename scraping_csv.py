@@ -1,9 +1,12 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-import pandas as pd
+import os
 import time
 
-df = pd.read_csv("top200.csv")
+import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+top200_path = os.path.join(".", "top200.csv")
+df = pd.read_csv(top200_path)
 
 links_to_download = df["historicallink"].tolist()
 
@@ -12,7 +15,8 @@ def download_csv(driver, url):
     driver.get(url)
     time.sleep(2)
     date_range_div = driver.find_element(
-        By.CLASS_NAME, "sc-16891c57-0.dalfmx.BaseButton_base__aMbeB.BaseButton_v-primary__zw8Vo.BaseButton_t-default__fZuC3.BaseButton_size-md__jbSJR.BaseButton_vd__2Cn0v")
+        By.CLASS_NAME,
+        "sc-16891c57-0.dalfmx.BaseButton_base__aMbeB.BaseButton_v-primary__zw8Vo.BaseButton_t-default__fZuC3.BaseButton_size-md__jbSJR.BaseButton_vd__2Cn0v")
     date_range_div.click()
     time.sleep(4)
     last_365_days_li = driver.find_element(
@@ -30,7 +34,7 @@ def download_csv(driver, url):
     time.sleep(2)
 
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.maximize_window()
 
 while links_to_download:
