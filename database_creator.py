@@ -44,11 +44,10 @@ class Tag(Base):
                                    onupdate=sqlalchemy.sql.func.now())
 
 
-coin_tag_table = sqlalchemy.Table(
-    'coin_tag', Base.metadata,
-    sqlalchemy.Column('c_id', sqlalchemy.Integer, sqlalchemy.ForeignKey(Coin.id)),
-    sqlalchemy.Column('t_id', sqlalchemy.Integer, sqlalchemy.ForeignKey(Tag.id))
-)
+class Coin_tag(Base):
+    __tablename__ = 'coin_tag'
+    c_id = sqlalchemy.Column(sqlalchemy.Integer, sqlalchemy.ForeignKey(Coin.id), primary_key=True)
+    t_id = sqlalchemy.Column(sqlalchemy.Integer, sqlalchemy.ForeignKey(Tag.id), primary_key=True)
 
 
 class Daily_market(Base):
