@@ -104,7 +104,8 @@ while links_to_scrap:
     if len(links_to_scrap) == 0:
         print("Downloaded all files. Stopping.")
         break
-    break
 
 driver.quit()
 results_df.to_csv("important-information.csv", index=False)
+
+#%%
