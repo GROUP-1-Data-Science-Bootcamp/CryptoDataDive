@@ -1,18 +1,25 @@
 import sqlalchemy
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 
+username = "root"
+password = "root"
+host = "127.0.0.1"
+port = "3306"
 
-database_url = "mysql+mysqlconnector://root:root@127.0.0.1:3306?charset=utf8mb4"
+database_url = f"mysql+mysqlconnector://{username}:{password}@{host}:{port}?charset=utf8mb4"
 base_engine = sqlalchemy.create_engine(database_url)
-base_engine.execute("CREATE SCHEMA IF NOT EXISTS quera_project_phase_1")
+with base_engine.connect() as base_conn:
+    base_conn.execute(sqlalchemy.text("CREATE SCHEMA IF NOT EXISTS quera_project_phase_1"))
 
-database_schema_url = "mysql+mysqlconnector://root:root@127.0.0.1:3306/quera_project_phase_1?charset=utf8mb4"
+
+database_schema_url = f"mysql+mysqlconnector://{username}:{password}@{host}:{port}/quera_project_phase_1?charset=utf8mb4"
 engine = sqlalchemy.create_engine(database_schema_url)
 
-engine.execute("DROP TABLE IF EXISTS daily_market")
-engine.execute("DROP TABLE IF EXISTS coin_tag")
-engine.execute("DROP TABLE IF EXISTS coins")
-engine.execute("DROP TABLE IF EXISTS tags")
+with engine.connect() as conn:
+    conn.execute(sqlalchemy.text("DROP TABLE IF EXISTS daily_market"))
+    conn.execute(sqlalchemy.text("DROP TABLE IF EXISTS coin_tag"))
+    conn.execute(sqlalchemy.text("DROP TABLE IF EXISTS coins"))
+    conn.execute(sqlalchemy.text("DROP TABLE IF EXISTS tags"))
 
 Base = declarative_base()
 
