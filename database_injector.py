@@ -2,12 +2,17 @@ import os
 
 import pandas as pd
 import sqlalchemy
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import Session
 
 import database_creator
 
-database_url = "mysql+mysqlconnector://root:root@127.0.0.1:3306/quera_project_phase_1?charset=utf8mb4"
+username = "root"
+password = "root"
+host = "127.0.0.1"
+port = "3306"
+
+database_url = f"mysql+mysqlconnector://{username}:{password}@{host}:{port}/quera_project_phase_1?charset=utf8mb4"
 engine = sqlalchemy.create_engine(database_url)
 session = Session(engine)
 meta_data = sqlalchemy.MetaData()
