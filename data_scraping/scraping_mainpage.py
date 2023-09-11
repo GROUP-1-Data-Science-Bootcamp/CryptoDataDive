@@ -8,7 +8,6 @@ driver.get("https://coinmarketcap.com/historical/20230825/")
 driver.maximize_window()
 
 collected_currencies = []
-
 total_height = int(driver.execute_script("return document.body.scrollHeight"))
 
 for i in range(1, total_height, 800):
