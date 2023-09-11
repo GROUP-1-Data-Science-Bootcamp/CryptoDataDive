@@ -5,7 +5,7 @@ import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-top200_path = os.path.join(".", "top200.csv")
+top200_path = os.path.join(".", "data_collections/top200.csv")
 df = pd.read_csv(top200_path)
 
 links_to_download = df["historicallink"].tolist()

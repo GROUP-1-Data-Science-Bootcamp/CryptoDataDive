@@ -2,12 +2,12 @@ import os
 
 import pandas as pd
 
-top200_path = os.path.join(".", "top200.csv")
+top200_path = os.path.join(".", "data_collections/top200.csv")
 top200 = pd.read_csv(top200_path)
 names = top200["name"].tolist()
 
 for name in names:
-    input_file_path = os.path.join(".", "csvs", f"{name}_9_2_2022-9_2_2023_historical_data_coinmarketcap.csv")
+    input_file_path = os.path.join(".", "data_collections/csvs", f"{name}_9_2_2022-9_2_2023_historical_data_coinmarketcap.csv")
     df = pd.read_csv(
         input_file_path,
         sep=";",
@@ -36,7 +36,7 @@ for name in names:
             "market_cap",
         ]
     ]
-    output_file_path = os.path.join(".", "cleaned_csvs", f"{name}.csv")
+    output_file_path = os.path.join(".", "data_collections/cleaned_csvs", f"{name}.csv")
     df.to_csv(
         output_file_path,
         index=False,
