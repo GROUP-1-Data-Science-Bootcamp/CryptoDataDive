@@ -1,3 +1,5 @@
+import os
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pandas as pd
@@ -37,4 +39,7 @@ else:
 driver.quit()
 
 df = pd.DataFrame(collected_currencies)
-df.to_csv("data_collections/top200.csv", index=False)
+output_file_path = os.path.join("..", "data_collections", "top200.csv")
+df.to_csv(output_file_path, index=False)
+
+#%%
