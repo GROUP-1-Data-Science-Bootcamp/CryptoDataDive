@@ -29,6 +29,8 @@ with engine.connect() as conn:
     conn.execute(sqlalchemy.text("DROP TABLE IF EXISTS coins"))
     conn.execute(sqlalchemy.text("DROP TABLE IF EXISTS tags"))
 
+print("Dropped tables")
+
 Base = declarative_base()
 
 
@@ -147,5 +149,6 @@ class Coin_contributor(Base):
 
 
 Base.metadata.create_all(engine)
+print("created all tables")
 
 #%%
