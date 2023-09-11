@@ -5,7 +5,7 @@ import sqlalchemy
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import Session
 
-import database_creator
+import database.database_creator as database_creator
 
 username = "root"
 password = "root"
