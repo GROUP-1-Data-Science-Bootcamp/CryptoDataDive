@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import re
 
-top200_path = os.path.join(".", "top200.csv")
+top200_path = os.path.join(".", "data_collections/top200.csv")
 df = pd.read_csv(top200_path)
 links_to_scrap = df["mainlink"].to_list()
 results_df = pd.DataFrame(columns=["symbol", "github", "langs", "contributors", "tags"])
@@ -158,6 +158,6 @@ while links_to_scrap:
         break
 
 driver.quit()
-results_df.to_csv("important-information.csv", index=False)
+results_df.to_csv("data_collections/important-information.csv", index=False)
 
 #%%

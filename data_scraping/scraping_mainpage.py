@@ -36,4 +36,4 @@ else:
 driver.quit()
 
 df = pd.DataFrame(collected_currencies)
-df.to_csv("top200.csv", index=False)
+df.to_csv("data_collections/top200.csv", index=False)
