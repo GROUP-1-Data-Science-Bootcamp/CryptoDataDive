@@ -67,7 +67,6 @@ instance/
 
 # Scrapy stuff:
 .scrapy
-geckodriver.log
 
 # Sphinx documentation
 docs/_build/
