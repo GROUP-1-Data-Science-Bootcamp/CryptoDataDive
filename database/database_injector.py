@@ -5,7 +5,7 @@ import sqlalchemy
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import Session
 
-import database.database_creator as database_creator
+import database_creator as database_creator
 
 username = "root"
 password = "root"
@@ -19,7 +19,7 @@ meta_data = sqlalchemy.MetaData()
 
 Base = declarative_base()
 
-top200_path = os.path.join(".", "top200.csv")
+top200_path = os.path.join(".", "data_collections/top200.csv")
 top200_dataframe = pd.read_csv(top200_path)
 
 for _, row in top200_dataframe.iterrows():
@@ -33,7 +33,7 @@ for _, row in top200_dataframe.iterrows():
     session.commit()
 print("Coins Done!")
 
-important_information_path = os.path.join(".", "important-information.csv")
+important_information_path = os.path.join(".", "data_collections/important-information.csv")
 important_information_df = pd.read_csv(important_information_path)
 
 Base = declarative_base()
@@ -66,7 +66,7 @@ coin_cnt = 1
 for name in coin_names:
     print(f"adding daily markets of {name} coin and it is number {coin_cnt}")
     coin_cnt += 1
-    input_file_path = os.path.join(".", "cleaned_csvs", f"{name}.csv")
+    input_file_path = os.path.join(".", "data_collections/cleaned_csvs", f"{name}.csv")
     c_id = session.query(database_creator.Coin).filter_by(name=name).first().id
     coin_historical_df = pd.read_csv(input_file_path)
     for _, row in coin_historical_df.iterrows():
