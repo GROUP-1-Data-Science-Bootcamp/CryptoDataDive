@@ -12,6 +12,7 @@ total_height = int(driver.execute_script("return document.body.scrollHeight"))
 
 for i in range(1, total_height, 800):
     driver.execute_script(f"window.scrollTo(0, {i});")
+    time.sleep(2)
 
 main_element = driver.find_elements(
     By.CLASS_NAME, "cmc-table__column-name--name")
