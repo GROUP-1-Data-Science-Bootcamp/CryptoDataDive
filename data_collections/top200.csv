@@ -30,24 +30,24 @@ rank,name,symbol,mainlink,historicallink
 29,Ethereum Classic,ETC,https://coinmarketcap.com/currencies/ethereum-classic/,https://coinmarketcap.com/currencies/ethereum-classic/historical-data/
 30,Hedera,HBAR,https://coinmarketcap.com/currencies/hedera/,https://coinmarketcap.com/currencies/hedera/historical-data/
 31,Internet Computer,ICP,https://coinmarketcap.com/currencies/internet-computer/,https://coinmarketcap.com/currencies/internet-computer/historical-data/
-32,Quant,QNT,https://coinmarketcap.com/currencies/quant/,https://coinmarketcap.com/currencies/quant/historical-data/
-33,Arbitrum,ARB,https://coinmarketcap.com/currencies/arbitrum/,https://coinmarketcap.com/currencies/arbitrum/historical-data/
-34,VeChain,VET,https://coinmarketcap.com/currencies/vechain/,https://coinmarketcap.com/currencies/vechain/historical-data/
-35,NEAR Protocol,NEAR,https://coinmarketcap.com/currencies/near-protocol/,https://coinmarketcap.com/currencies/near-protocol/historical-data/
-36,Optimism,OP,https://coinmarketcap.com/currencies/optimism-ethereum/,https://coinmarketcap.com/currencies/optimism-ethereum/historical-data/
-37,Maker,MKR,https://coinmarketcap.com/currencies/maker/,https://coinmarketcap.com/currencies/maker/historical-data/
-38,Aave,AAVE,https://coinmarketcap.com/currencies/aave/,https://coinmarketcap.com/currencies/aave/historical-data/
-39,The Graph,GRT,https://coinmarketcap.com/currencies/the-graph/,https://coinmarketcap.com/currencies/the-graph/historical-data/
-40,Algorand,ALGO,https://coinmarketcap.com/currencies/algorand/,https://coinmarketcap.com/currencies/algorand/historical-data/
-41,XDC Network,XDC,https://coinmarketcap.com/currencies/xdc-network/,https://coinmarketcap.com/currencies/xdc-network/historical-data/
-42,USDD,USDD,https://coinmarketcap.com/currencies/usdd/,https://coinmarketcap.com/currencies/usdd/historical-data/
-43,Axie Infinity,AXS,https://coinmarketcap.com/currencies/axie-infinity/,https://coinmarketcap.com/currencies/axie-infinity/historical-data/
-44,The Sandbox,SAND,https://coinmarketcap.com/currencies/the-sandbox/,https://coinmarketcap.com/currencies/the-sandbox/historical-data/
-45,Tezos,XTZ,https://coinmarketcap.com/currencies/tezos/,https://coinmarketcap.com/currencies/tezos/historical-data/
-46,Stacks,STX,https://coinmarketcap.com/currencies/stacks/,https://coinmarketcap.com/currencies/stacks/historical-data/
-47,MultiversX,EGLD,https://coinmarketcap.com/currencies/multiversx-egld/,https://coinmarketcap.com/currencies/multiversx-egld/historical-data/
-48,EOS,EOS,https://coinmarketcap.com/currencies/eos/,https://coinmarketcap.com/currencies/eos/historical-data/
-49,Theta Network,THETA,https://coinmarketcap.com/currencies/theta-network/,https://coinmarketcap.com/currencies/theta-network/historical-data/
+32,Filecoin,FIL,https://coinmarketcap.com/currencies/filecoin/,https://coinmarketcap.com/currencies/filecoin/historical-data/
+33,Mantle,MNT,https://coinmarketcap.com/currencies/mantle/,https://coinmarketcap.com/currencies/mantle/historical-data/
+34,Lido DAO,LDO,https://coinmarketcap.com/currencies/lido-dao/,https://coinmarketcap.com/currencies/lido-dao/historical-data/
+35,Cronos,CRO,https://coinmarketcap.com/currencies/cronos/,https://coinmarketcap.com/currencies/cronos/historical-data/
+36,Aptos,APT,https://coinmarketcap.com/currencies/aptos/,https://coinmarketcap.com/currencies/aptos/historical-data/
+37,Quant,QNT,https://coinmarketcap.com/currencies/quant/,https://coinmarketcap.com/currencies/quant/historical-data/
+38,Arbitrum,ARB,https://coinmarketcap.com/currencies/arbitrum/,https://coinmarketcap.com/currencies/arbitrum/historical-data/
+39,VeChain,VET,https://coinmarketcap.com/currencies/vechain/,https://coinmarketcap.com/currencies/vechain/historical-data/
+40,NEAR Protocol,NEAR,https://coinmarketcap.com/currencies/near-protocol/,https://coinmarketcap.com/currencies/near-protocol/historical-data/
+41,Optimism,OP,https://coinmarketcap.com/currencies/optimism-ethereum/,https://coinmarketcap.com/currencies/optimism-ethereum/historical-data/
+42,Maker,MKR,https://coinmarketcap.com/currencies/maker/,https://coinmarketcap.com/currencies/maker/historical-data/
+43,Aave,AAVE,https://coinmarketcap.com/currencies/aave/,https://coinmarketcap.com/currencies/aave/historical-data/
+44,The Graph,GRT,https://coinmarketcap.com/currencies/the-graph/,https://coinmarketcap.com/currencies/the-graph/historical-data/
+45,Algorand,ALGO,https://coinmarketcap.com/currencies/algorand/,https://coinmarketcap.com/currencies/algorand/historical-data/
+46,XDC Network,XDC,https://coinmarketcap.com/currencies/xdc-network/,https://coinmarketcap.com/currencies/xdc-network/historical-data/
+47,USDD,USDD,https://coinmarketcap.com/currencies/usdd/,https://coinmarketcap.com/currencies/usdd/historical-data/
+48,Axie Infinity,AXS,https://coinmarketcap.com/currencies/axie-infinity/,https://coinmarketcap.com/currencies/axie-infinity/historical-data/
+49,The Sandbox,SAND,https://coinmarketcap.com/currencies/the-sandbox/,https://coinmarketcap.com/currencies/the-sandbox/historical-data/
 50,Immutable,IMX,https://coinmarketcap.com/currencies/immutable-x/,https://coinmarketcap.com/currencies/immutable-x/historical-data/
 51,Injective,INJ,https://coinmarketcap.com/currencies/injective/,https://coinmarketcap.com/currencies/injective/historical-data/
 52,Fantom,FTM,https://coinmarketcap.com/currencies/fantom/,https://coinmarketcap.com/currencies/fantom/historical-data/
@@ -61,122 +61,52 @@ rank,name,symbol,mainlink,historicallink
 60,THORChain,RUNE,https://coinmarketcap.com/currencies/thorchain/,https://coinmarketcap.com/currencies/thorchain/historical-data/
 61,Kava,KAVA,https://coinmarketcap.com/currencies/kava/,https://coinmarketcap.com/currencies/kava/historical-data/
 62,PAX Gold,PAXG,https://coinmarketcap.com/currencies/pax-gold/,https://coinmarketcap.com/currencies/pax-gold/historical-data/
-63,Gala,GALA,https://coinmarketcap.com/currencies/gala/,https://coinmarketcap.com/currencies/gala/historical-data/
-64,Klaytn,KLAY,https://coinmarketcap.com/currencies/klaytn/,https://coinmarketcap.com/currencies/klaytn/historical-data/
-65,KuCoin Token,KCS,https://coinmarketcap.com/currencies/kucoin-token/,https://coinmarketcap.com/currencies/kucoin-token/historical-data/
-66,Frax Share,FXS,https://coinmarketcap.com/currencies/frax-share/,https://coinmarketcap.com/currencies/frax-share/historical-data/
-67,IOTA,MIOTA,https://coinmarketcap.com/currencies/iota/,https://coinmarketcap.com/currencies/iota/historical-data/
-68,Zcash,ZEC,https://coinmarketcap.com/currencies/zcash/,https://coinmarketcap.com/currencies/zcash/historical-data/
-69,Casper,CSPR,https://coinmarketcap.com/currencies/casper/,https://coinmarketcap.com/currencies/casper/historical-data/
-70,Sui,SUI,https://coinmarketcap.com/currencies/sui/,https://coinmarketcap.com/currencies/sui/historical-data/
-71,Huobi Token,HT,https://coinmarketcap.com/currencies/huobi-token/,https://coinmarketcap.com/currencies/huobi-token/historical-data/
-72,BitTorrent(New),BTT,https://coinmarketcap.com/currencies/bittorrent-new/,https://coinmarketcap.com/currencies/bittorrent-new/historical-data/
-73,Curve DAO Token,CRV,https://coinmarketcap.com/currencies/curve-dao-token/,https://coinmarketcap.com/currencies/curve-dao-token/historical-data/
-74,Conflux,CFX,https://coinmarketcap.com/currencies/conflux-network/,https://coinmarketcap.com/currencies/conflux-network/historical-data/
-75,Mina,MINA,https://coinmarketcap.com/currencies/mina/,https://coinmarketcap.com/currencies/mina/historical-data/
-76,GateToken,GT,https://coinmarketcap.com/currencies/gatetoken/,https://coinmarketcap.com/currencies/gatetoken/historical-data/
-77,Terra Classic,LUNC,https://coinmarketcap.com/currencies/terra-luna/,https://coinmarketcap.com/currencies/terra-luna/historical-data/
-78,Trust Wallet Token,TWT,https://coinmarketcap.com/currencies/trust-wallet-token/,https://coinmarketcap.com/currencies/trust-wallet-token/historical-data/
-79,Pepe,PEPE,https://coinmarketcap.com/currencies/pepe/,https://coinmarketcap.com/currencies/pepe/historical-data/
-80,dYdX,DYDX,https://coinmarketcap.com/currencies/dydx/,https://coinmarketcap.com/currencies/dydx/historical-data/
-81,Compound,COMP,https://coinmarketcap.com/currencies/compound/,https://coinmarketcap.com/currencies/compound/historical-data/
-82,Nexo,NEXO,https://coinmarketcap.com/currencies/nexo/,https://coinmarketcap.com/currencies/nexo/historical-data/
-83,GMX,GMX,https://coinmarketcap.com/currencies/gmx/,https://coinmarketcap.com/currencies/gmx/historical-data/
-84,Bone ShibaSwap,BONE,https://coinmarketcap.com/currencies/bone-shibaswap/,https://coinmarketcap.com/currencies/bone-shibaswap/historical-data/
-85,APENFT,NFT,https://coinmarketcap.com/currencies/apenft/,https://coinmarketcap.com/currencies/apenft/historical-data/
-86,WOO Network,WOO,https://coinmarketcap.com/currencies/wootrade/,https://coinmarketcap.com/currencies/wootrade/historical-data/
-87,Gemini Dollar,GUSD,https://coinmarketcap.com/currencies/gemini-dollar/,https://coinmarketcap.com/currencies/gemini-dollar/historical-data/
-88,Flare,FLR,https://coinmarketcap.com/currencies/flare/,https://coinmarketcap.com/currencies/flare/historical-data/
-89,Astar,ASTR,https://coinmarketcap.com/currencies/astar/,https://coinmarketcap.com/currencies/astar/historical-data/
-90,Dash,DASH,https://coinmarketcap.com/currencies/dash/,https://coinmarketcap.com/currencies/dash/historical-data/
-91,Akash Network,AKT,https://coinmarketcap.com/currencies/akash-network/,https://coinmarketcap.com/currencies/akash-network/historical-data/
-92,PancakeSwap,CAKE,https://coinmarketcap.com/currencies/pancakeswap/,https://coinmarketcap.com/currencies/pancakeswap/historical-data/
-93,MX TOKEN,MX,https://coinmarketcap.com/currencies/mx-token/,https://coinmarketcap.com/currencies/mx-token/historical-data/
-94,Basic Attention Token,BAT,https://coinmarketcap.com/currencies/basic-attention-token/,https://coinmarketcap.com/currencies/basic-attention-token/historical-data/
-95,SafePal,SFP,https://coinmarketcap.com/currencies/safepal/,https://coinmarketcap.com/currencies/safepal/historical-data/
-96,1inch Network,1INCH,https://coinmarketcap.com/currencies/1inch/,https://coinmarketcap.com/currencies/1inch/historical-data/
-97,Sei,SEI,https://coinmarketcap.com/currencies/sei/,https://coinmarketcap.com/currencies/sei/historical-data/
-98,Chia,XCH,https://coinmarketcap.com/currencies/chia-network/,https://coinmarketcap.com/currencies/chia-network/historical-data/
-99,Loopring,LRC,https://coinmarketcap.com/currencies/loopring/,https://coinmarketcap.com/currencies/loopring/historical-data/
-100,Enjin Coin,ENJ,https://coinmarketcap.com/currencies/enjin-coin/,https://coinmarketcap.com/currencies/enjin-coin/historical-data/
-101,Helium,HNT,https://coinmarketcap.com/currencies/helium/,https://coinmarketcap.com/currencies/helium/historical-data/
-102,Qtum,QTUM,https://coinmarketcap.com/currencies/qtum/,https://coinmarketcap.com/currencies/qtum/historical-data/
-103,Ethereum Name Service,ENS,https://coinmarketcap.com/currencies/ethereum-name-service/,https://coinmarketcap.com/currencies/ethereum-name-service/historical-data/
-104,NEM,XEM,https://coinmarketcap.com/currencies/nem/,https://coinmarketcap.com/currencies/nem/historical-data/
-105,Bitcoin Gold,BTG,https://coinmarketcap.com/currencies/bitcoin-gold/,https://coinmarketcap.com/currencies/bitcoin-gold/historical-data/
-106,SingularityNET,AGIX,https://coinmarketcap.com/currencies/singularitynet/,https://coinmarketcap.com/currencies/singularitynet/historical-data/
-107,Convex Finance,CVX,https://coinmarketcap.com/currencies/convex-finance/,https://coinmarketcap.com/currencies/convex-finance/historical-data/
-108,Mask Network,MASK,https://coinmarketcap.com/currencies/mask-network/,https://coinmarketcap.com/currencies/mask-network/historical-data/
-109,Celo,CELO,https://coinmarketcap.com/currencies/celo/,https://coinmarketcap.com/currencies/celo/historical-data/
-110,Theta Fuel,TFUEL,https://coinmarketcap.com/currencies/theta-fuel/,https://coinmarketcap.com/currencies/theta-fuel/historical-data/
-111,Decred,DCR,https://coinmarketcap.com/currencies/decred/,https://coinmarketcap.com/currencies/decred/historical-data/
-112,Ankr,ANKR,https://coinmarketcap.com/currencies/ankr/,https://coinmarketcap.com/currencies/ankr/historical-data/
-113,Ravencoin,RVN,https://coinmarketcap.com/currencies/ravencoin/,https://coinmarketcap.com/currencies/ravencoin/historical-data/
-114,Osmosis,OSMO,https://coinmarketcap.com/currencies/osmosis/,https://coinmarketcap.com/currencies/osmosis/historical-data/
-115,Ocean Protocol,OCEAN,https://coinmarketcap.com/currencies/ocean-protocol/,https://coinmarketcap.com/currencies/ocean-protocol/historical-data/
-116,yearn.finance,YFI,https://coinmarketcap.com/currencies/yearn-finance/,https://coinmarketcap.com/currencies/yearn-finance/historical-data/
-117,Livepeer,LPT,https://coinmarketcap.com/currencies/livepeer/,https://coinmarketcap.com/currencies/livepeer/historical-data/
-118,Holo,HOT,https://coinmarketcap.com/currencies/holo/,https://coinmarketcap.com/currencies/holo/historical-data/
-119,JUST,JST,https://coinmarketcap.com/currencies/just/,https://coinmarketcap.com/currencies/just/historical-data/
-120,STEPN,GMT,https://coinmarketcap.com/currencies/green-metaverse-token/,https://coinmarketcap.com/currencies/green-metaverse-token/historical-data/
-121,Balancer,BAL,https://coinmarketcap.com/currencies/balancer/,https://coinmarketcap.com/currencies/balancer/historical-data/
-122,aelf,ELF,https://coinmarketcap.com/currencies/aelf/,https://coinmarketcap.com/currencies/aelf/historical-data/
-123,Fetch.ai,FET,https://coinmarketcap.com/currencies/fetch/,https://coinmarketcap.com/currencies/fetch/historical-data/
-124,Blur,BLUR,https://coinmarketcap.com/currencies/blur-token/,https://coinmarketcap.com/currencies/blur-token/historical-data/
-125,Waves,WAVES,https://coinmarketcap.com/currencies/waves/,https://coinmarketcap.com/currencies/waves/historical-data/
-126,Golem,GLM,https://coinmarketcap.com/currencies/golem-network-tokens/,https://coinmarketcap.com/currencies/golem-network-tokens/historical-data/
-127,Aragon,ANT,https://coinmarketcap.com/currencies/aragon/,https://coinmarketcap.com/currencies/aragon/historical-data/
-128,Audius,AUDIO,https://coinmarketcap.com/currencies/audius/,https://coinmarketcap.com/currencies/audius/historical-data/
-129,JasmyCoin,JASMY,https://coinmarketcap.com/currencies/jasmy/,https://coinmarketcap.com/currencies/jasmy/historical-data/
-130,FLOKI,FLOKI,https://coinmarketcap.com/currencies/floki-inu/,https://coinmarketcap.com/currencies/floki-inu/historical-data/
-131,Threshold,T,https://coinmarketcap.com/currencies/threshold/,https://coinmarketcap.com/currencies/threshold/historical-data/
-132,ICON,ICX,https://coinmarketcap.com/currencies/icon/,https://coinmarketcap.com/currencies/icon/historical-data/
-133,Kusama,KSM,https://coinmarketcap.com/currencies/kusama/,https://coinmarketcap.com/currencies/kusama/historical-data/
-134,Siacoin,SC,https://coinmarketcap.com/currencies/siacoin/,https://coinmarketcap.com/currencies/siacoin/historical-data/
-135,Worldcoin,WLD,https://coinmarketcap.com/currencies/worldcoin-org/,https://coinmarketcap.com/currencies/worldcoin-org/historical-data/
-136,Solar,SXP,https://coinmarketcap.com/currencies/sxp/,https://coinmarketcap.com/currencies/sxp/historical-data/
-137,Terra,LUNA,https://coinmarketcap.com/currencies/terra-luna-v2/,https://coinmarketcap.com/currencies/terra-luna-v2/historical-data/
-138,Illuvium,ILV,https://coinmarketcap.com/currencies/illuvium/,https://coinmarketcap.com/currencies/illuvium/historical-data/
-139,Hive,HIVE,https://coinmarketcap.com/currencies/hive-blockchain/,https://coinmarketcap.com/currencies/hive-blockchain/historical-data/
-140,0x Protocol,ZRX,https://coinmarketcap.com/currencies/0x/,https://coinmarketcap.com/currencies/0x/historical-data/
-141,EthereumPoW,ETHW,https://coinmarketcap.com/currencies/ethereum-pow/,https://coinmarketcap.com/currencies/ethereum-pow/historical-data/
-142,Biconomy,BICO,https://coinmarketcap.com/currencies/biconomy/,https://coinmarketcap.com/currencies/biconomy/historical-data/
-143,Harmony,ONE,https://coinmarketcap.com/currencies/harmony/,https://coinmarketcap.com/currencies/harmony/historical-data/
-144,WAX,WAXP,https://coinmarketcap.com/currencies/wax/,https://coinmarketcap.com/currencies/wax/historical-data/
-145,SushiSwap,SUSHI,https://coinmarketcap.com/currencies/sushiswap/,https://coinmarketcap.com/currencies/sushiswap/historical-data/
-146,Axelar,AXL,https://coinmarketcap.com/currencies/axelar/,https://coinmarketcap.com/currencies/axelar/historical-data/
-147,IoTeX,IOTX,https://coinmarketcap.com/currencies/iotex/,https://coinmarketcap.com/currencies/iotex/historical-data/
-148,MAGIC,MAGIC,https://coinmarketcap.com/currencies/magic-token/,https://coinmarketcap.com/currencies/magic-token/historical-data/
-149,Merit Circle,MC,https://coinmarketcap.com/currencies/merit-circle/,https://coinmarketcap.com/currencies/merit-circle/historical-data/
-150,TerraClassicUSD,USTC,https://coinmarketcap.com/currencies/terrausd/,https://coinmarketcap.com/currencies/terrausd/historical-data/
-151,Kadena,KDA,https://coinmarketcap.com/currencies/kadena/,https://coinmarketcap.com/currencies/kadena/historical-data/
-152,UniBot,UNIBOT,https://coinmarketcap.com/currencies/unibot-eth/,https://coinmarketcap.com/currencies/unibot-eth/historical-data/
-153,BORA,BORA,https://coinmarketcap.com/currencies/bora/,https://coinmarketcap.com/currencies/bora/historical-data/
-154,Nervos Network,CKB,https://coinmarketcap.com/currencies/nervos-network/,https://coinmarketcap.com/currencies/nervos-network/historical-data/
-155,DigiByte,DGB,https://coinmarketcap.com/currencies/digibyte/,https://coinmarketcap.com/currencies/digibyte/historical-data/
-156,Stargate Finance,STG,https://coinmarketcap.com/currencies/stargate-finance/,https://coinmarketcap.com/currencies/stargate-finance/historical-data/
-157,DAO Maker,DAO,https://coinmarketcap.com/currencies/dao-maker/,https://coinmarketcap.com/currencies/dao-maker/historical-data/
-158,MobileCoin,MOB,https://coinmarketcap.com/currencies/mobilecoin/,https://coinmarketcap.com/currencies/mobilecoin/historical-data/
-159,Ribbon Finance,RBN,https://coinmarketcap.com/currencies/ribbon-finance/,https://coinmarketcap.com/currencies/ribbon-finance/historical-data/
-160,Core,CORE,https://coinmarketcap.com/currencies/core-dao/,https://coinmarketcap.com/currencies/core-dao/historical-data/
-161,SKALE,SKL,https://coinmarketcap.com/currencies/skale-network/,https://coinmarketcap.com/currencies/skale-network/historical-data/
-162,Flux,FLUX,https://coinmarketcap.com/currencies/zel/,https://coinmarketcap.com/currencies/zel/historical-data/
-163,UMA,UMA,https://coinmarketcap.com/currencies/uma/,https://coinmarketcap.com/currencies/uma/historical-data/
-164,Horizen,ZEN,https://coinmarketcap.com/currencies/horizen/,https://coinmarketcap.com/currencies/horizen/historical-data/
-165,Galxe,GAL,https://coinmarketcap.com/currencies/galxe/,https://coinmarketcap.com/currencies/galxe/historical-data/
-166,Reserve Rights,RSR,https://coinmarketcap.com/currencies/reserve-rights/,https://coinmarketcap.com/currencies/reserve-rights/historical-data/
-167,TomoChain,TOMO,https://coinmarketcap.com/currencies/tomochain/,https://coinmarketcap.com/currencies/tomochain/historical-data/
-168,Everscale,EVER,https://coinmarketcap.com/currencies/everscale/,https://coinmarketcap.com/currencies/everscale/historical-data/
-169,STP,STPT,https://coinmarketcap.com/currencies/standard-tokenization-protocol/,https://coinmarketcap.com/currencies/standard-tokenization-protocol/historical-data/
-170,Lisk,LSK,https://coinmarketcap.com/currencies/lisk/,https://coinmarketcap.com/currencies/lisk/historical-data/
-171,Nano,XNO,https://coinmarketcap.com/currencies/nano/,https://coinmarketcap.com/currencies/nano/historical-data/
-172,Storj,STORJ,https://coinmarketcap.com/currencies/storj/,https://coinmarketcap.com/currencies/storj/historical-data/
-173,Alchemy Pay,ACH,https://coinmarketcap.com/currencies/alchemy-pay/,https://coinmarketcap.com/currencies/alchemy-pay/historical-data/
-174,Kyber Network Crystal v2,KNC,https://coinmarketcap.com/currencies/kyber-network-crystal-v2/,https://coinmarketcap.com/currencies/kyber-network-crystal-v2/historical-data/
-175,Cartesi,CTSI,https://coinmarketcap.com/currencies/cartesi/,https://coinmarketcap.com/currencies/cartesi/historical-data/
-176,Celer Network,CELR,https://coinmarketcap.com/currencies/celer-network/,https://coinmarketcap.com/currencies/celer-network/historical-data/
-177,PlayDapp,PLA,https://coinmarketcap.com/currencies/playdapp/,https://coinmarketcap.com/currencies/playdapp/historical-data/
-178,Pundi X (New),PUNDIX,https://coinmarketcap.com/currencies/pundix-new/,https://coinmarketcap.com/currencies/pundix-new/historical-data/
-179,Vulcan Forged PYR,PYR,https://coinmarketcap.com/currencies/vulcan-forged-pyr/,https://coinmarketcap.com/currencies/vulcan-forged-pyr/historical-data/
-180,Status,SNT,https://coinmarketcap.com/currencies/status/,https://coinmarketcap.com/currencies/status/historical-data/
-181,Amp,AMP,https://coinmarketcap.com/currencies/amp/,https://coinmarketcap.com/currencies/amp/historical-data/
+63,Tether Gold,XAUt,https://coinmarketcap.com/currencies/tether-gold/,https://coinmarketcap.com/currencies/tether-gold/historical-data/
+64,eCash,XEC,https://coinmarketcap.com/currencies/ecash/,https://coinmarketcap.com/currencies/ecash/historical-data/
+65,Flow,FLOW,https://coinmarketcap.com/currencies/flow/,https://coinmarketcap.com/currencies/flow/historical-data/
+66,Rocket Pool,RPL,https://coinmarketcap.com/currencies/rocket-pool/,https://coinmarketcap.com/currencies/rocket-pool/historical-data/
+67,Chiliz,CHZ,https://coinmarketcap.com/currencies/chiliz/,https://coinmarketcap.com/currencies/chiliz/historical-data/
+68,Gala,GALA,https://coinmarketcap.com/currencies/gala/,https://coinmarketcap.com/currencies/gala/historical-data/
+69,Klaytn,KLAY,https://coinmarketcap.com/currencies/klaytn/,https://coinmarketcap.com/currencies/klaytn/historical-data/
+70,KuCoin Token,KCS,https://coinmarketcap.com/currencies/kucoin-token/,https://coinmarketcap.com/currencies/kucoin-token/historical-data/
+71,Frax Share,FXS,https://coinmarketcap.com/currencies/frax-share/,https://coinmarketcap.com/currencies/frax-share/historical-data/
+72,IOTA,MIOTA,https://coinmarketcap.com/currencies/iota/,https://coinmarketcap.com/currencies/iota/historical-data/
+73,Zcash,ZEC,https://coinmarketcap.com/currencies/zcash/,https://coinmarketcap.com/currencies/zcash/historical-data/
+74,Casper,CSPR,https://coinmarketcap.com/currencies/casper/,https://coinmarketcap.com/currencies/casper/historical-data/
+75,Sui,SUI,https://coinmarketcap.com/currencies/sui/,https://coinmarketcap.com/currencies/sui/historical-data/
+76,Huobi Token,HT,https://coinmarketcap.com/currencies/huobi-token/,https://coinmarketcap.com/currencies/huobi-token/historical-data/
+77,BitTorrent(New),BTT,https://coinmarketcap.com/currencies/bittorrent-new/,https://coinmarketcap.com/currencies/bittorrent-new/historical-data/
+78,Curve DAO Token,CRV,https://coinmarketcap.com/currencies/curve-dao-token/,https://coinmarketcap.com/currencies/curve-dao-token/historical-data/
+79,Conflux,CFX,https://coinmarketcap.com/currencies/conflux-network/,https://coinmarketcap.com/currencies/conflux-network/historical-data/
+80,Mina,MINA,https://coinmarketcap.com/currencies/mina/,https://coinmarketcap.com/currencies/mina/historical-data/
+81,Threshold,T,https://coinmarketcap.com/currencies/threshold/,https://coinmarketcap.com/currencies/threshold/historical-data/
+82,ICON,ICX,https://coinmarketcap.com/currencies/icon/,https://coinmarketcap.com/currencies/icon/historical-data/
+83,Kusama,KSM,https://coinmarketcap.com/currencies/kusama/,https://coinmarketcap.com/currencies/kusama/historical-data/
+84,Siacoin,SC,https://coinmarketcap.com/currencies/siacoin/,https://coinmarketcap.com/currencies/siacoin/historical-data/
+85,Worldcoin,WLD,https://coinmarketcap.com/currencies/worldcoin-org/,https://coinmarketcap.com/currencies/worldcoin-org/historical-data/
+86,Solar,SXP,https://coinmarketcap.com/currencies/sxp/,https://coinmarketcap.com/currencies/sxp/historical-data/
+87,Terra,LUNA,https://coinmarketcap.com/currencies/terra-luna-v2/,https://coinmarketcap.com/currencies/terra-luna-v2/historical-data/
+88,Illuvium,ILV,https://coinmarketcap.com/currencies/illuvium/,https://coinmarketcap.com/currencies/illuvium/historical-data/
+89,Hive,HIVE,https://coinmarketcap.com/currencies/hive-blockchain/,https://coinmarketcap.com/currencies/hive-blockchain/historical-data/
+90,0x Protocol,ZRX,https://coinmarketcap.com/currencies/0x/,https://coinmarketcap.com/currencies/0x/historical-data/
+91,EthereumPoW,ETHW,https://coinmarketcap.com/currencies/ethereum-pow/,https://coinmarketcap.com/currencies/ethereum-pow/historical-data/
+92,Ontology,ONT,https://coinmarketcap.com/currencies/ontology/,https://coinmarketcap.com/currencies/ontology/historical-data/
+93,ssv.network,SSV,https://coinmarketcap.com/currencies/ssv-network/,https://coinmarketcap.com/currencies/ssv-network/historical-data/
+94,Moonbeam,GLMR,https://coinmarketcap.com/currencies/moonbeam/,https://coinmarketcap.com/currencies/moonbeam/historical-data/
+95,IOST,IOST,https://coinmarketcap.com/currencies/iostoken/,https://coinmarketcap.com/currencies/iostoken/historical-data/
+96,Band Protocol,BAND,https://coinmarketcap.com/currencies/band-protocol/,https://coinmarketcap.com/currencies/band-protocol/historical-data/
+97,Biconomy,BICO,https://coinmarketcap.com/currencies/biconomy/,https://coinmarketcap.com/currencies/biconomy/historical-data/
+98,Harmony,ONE,https://coinmarketcap.com/currencies/harmony/,https://coinmarketcap.com/currencies/harmony/historical-data/
+99,WAX,WAXP,https://coinmarketcap.com/currencies/wax/,https://coinmarketcap.com/currencies/wax/historical-data/
+100,SushiSwap,SUSHI,https://coinmarketcap.com/currencies/sushiswap/,https://coinmarketcap.com/currencies/sushiswap/historical-data/
+101,Axelar,AXL,https://coinmarketcap.com/currencies/axelar/,https://coinmarketcap.com/currencies/axelar/historical-data/
+102,IoTeX,IOTX,https://coinmarketcap.com/currencies/iotex/,https://coinmarketcap.com/currencies/iotex/historical-data/
+103,MAGIC,MAGIC,https://coinmarketcap.com/currencies/magic-token/,https://coinmarketcap.com/currencies/magic-token/historical-data/
+104,Merit Circle,MC,https://coinmarketcap.com/currencies/merit-circle/,https://coinmarketcap.com/currencies/merit-circle/historical-data/
+105,TerraClassicUSD,USTC,https://coinmarketcap.com/currencies/terrausd/,https://coinmarketcap.com/currencies/terrausd/historical-data/
+106,Kadena,KDA,https://coinmarketcap.com/currencies/kadena/,https://coinmarketcap.com/currencies/kadena/historical-data/
+107,UniBot,UNIBOT,https://coinmarketcap.com/currencies/unibot-eth/,https://coinmarketcap.com/currencies/unibot-eth/historical-data/
+108,BORA,BORA,https://coinmarketcap.com/currencies/bora/,https://coinmarketcap.com/currencies/bora/historical-data/
+109,Nervos Network,CKB,https://coinmarketcap.com/currencies/nervos-network/,https://coinmarketcap.com/currencies/nervos-network/historical-data/
+110,DigiByte,DGB,https://coinmarketcap.com/currencies/digibyte/,https://coinmarketcap.com/currencies/digibyte/historical-data/
+111,Stargate Finance,STG,https://coinmarketcap.com/currencies/stargate-finance/,https://coinmarketcap.com/currencies/stargate-finance/historical-data/

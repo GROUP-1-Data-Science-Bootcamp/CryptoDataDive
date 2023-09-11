@@ -7,7 +7,7 @@ top200 = pd.read_csv(top200_path)
 names = top200["name"].tolist()
 
 for name in names:
-    input_file_path = os.path.join(".", "data_collections/csvs", f"{name}_9_2_2022-9_2_2023_historical_data_coinmarketcap.csv")
+    input_file_path = os.path.join(".", "data_collections/csvs/", f"{name}_11_9_2022-11_9_2023_historical_data_coinmarketcap.csv")
     df = pd.read_csv(
         input_file_path,
         sep=";",
