@@ -5,7 +5,7 @@ import sqlalchemy
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import Session
 
-import database_creator as database_creator
+import database.database_creator as database_creator
 
 username = "root"
 password = "root"
@@ -19,7 +19,7 @@ meta_data = sqlalchemy.MetaData()
 
 Base = declarative_base()
 
-top200_path = os.path.join(".", "data_collections/top200.csv")
+top200_path = os.path.join("..", "data_collections/top200.csv")
 top200_dataframe = pd.read_csv(top200_path)
 
 for _, row in top200_dataframe.iterrows():
@@ -33,7 +33,7 @@ for _, row in top200_dataframe.iterrows():
     session.commit()
 print("Coins Done!")
 
-important_information_path = os.path.join(".", "data_collections/important-information.csv")
+important_information_path = os.path.join("..", "data_collections/important-information.csv")
 important_information_df = pd.read_csv(important_information_path)
 
 Base = declarative_base()
@@ -41,24 +41,63 @@ Base = declarative_base()
 for _, row in important_information_df.iterrows():
     try:
         tags = row['tags'].split(", ")
-    except:
-        continue
+        for tag in tags:
+            try:
+                t_id = session.query(database_creator.Tag).filter_by(name=tag).first().id
+            except:
+                session.add(database_creator.Tag(name=tag))
+                session.commit()
+                t_id = session.query(database_creator.Tag).filter_by(name=tag).first().id
 
-    for tag in tags:
-        try:
-            t_id = session.query(database_creator.Tag).filter_by(name=tag).first().id
-        except:
-            session.add(database_creator.Tag(name=tag))
+            c_id = session.query(database_creator.Coin).filter_by(symbol=row['symbol']).first().id
+            session.add(database_creator.Coin_tag(
+                c_id=c_id,
+                t_id=t_id,
+            ))
             session.commit()
-            t_id = session.query(database_creator.Tag).filter_by(name=tag).first().id
+    except:
+        pass
 
-        c_id = session.query(database_creator.Coin).filter_by(symbol=row['symbol']).first().id
-        session.add(database_creator.Coin_tag(
-            c_id=c_id,
-            t_id=t_id,
-        ))
-        session.commit()
-print("Tags Done!")
+    try:
+        langs = row['langs'].split(", ")
+        for lang in langs:
+            try:
+                l_id = session.query(database_creator.Language).filter_by(name=lang).first().id
+            except:
+                session.add(database_creator.Language(name=lang))
+                session.commit()
+                l_id = session.query(database_creator.Language).filter_by(name=lang).first().id
+
+            c_id = session.query(database_creator.Coin).filter_by(symbol=row['symbol']).first().id
+            session.add(database_creator.Coin_language(
+                c_id=c_id,
+                l_id=l_id,
+            ))
+            session.commit()
+    except:
+        pass
+
+    try:
+        contributors = row['contributors'].split(", ")
+        for contributor in contributors:
+            try:
+                cn_id = session.query(database_creator.Contributor).filter_by(link=contributor).first().id
+            except:
+                session.add(database_creator.Contributor(link=contributor))
+                session.commit()
+                cn_id = session.query(database_creator.Contributor).filter_by(link=contributor).first().id
+
+            c_id = session.query(database_creator.Coin).filter_by(symbol=row['symbol']).first().id
+            session.add(database_creator.Coin_contributor(
+                c_id=c_id,
+                cn_id=cn_id,
+            ))
+            session.commit()
+    except:
+        pass
+
+
+print("Tags, Langs, Contributors Done!")
 
 coin_names = top200_dataframe['name'].to_list()
 
@@ -66,7 +105,7 @@ coin_cnt = 1
 for name in coin_names:
     print(f"adding daily markets of {name} coin and it is number {coin_cnt}")
     coin_cnt += 1
-    input_file_path = os.path.join(".", "data_collections/cleaned_csvs", f"{name}.csv")
+    input_file_path = os.path.join("..", "data_collections/cleaned_csvs", f"{name}.csv")
     c_id = session.query(database_creator.Coin).filter_by(name=name).first().id
     coin_historical_df = pd.read_csv(input_file_path)
     for _, row in coin_historical_df.iterrows():
