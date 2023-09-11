@@ -150,5 +150,3 @@ class Coin_contributor(Base):
 
 Base.metadata.create_all(engine)
 print("created all tables")
-
-#%%

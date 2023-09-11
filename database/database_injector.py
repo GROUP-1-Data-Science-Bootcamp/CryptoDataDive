@@ -122,5 +122,3 @@ for name in coin_names:
             market_cap=row['market_cap']
         ))
         session.commit()
-
-#%%
